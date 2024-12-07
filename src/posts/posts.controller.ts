@@ -23,8 +23,6 @@ import { Roles, UserRole } from 'src/auth/roles-based';
 import { FileUploadService } from 'src/common/services/file-upload.service';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { ImageValidationPipe } from 'src/common/pipes/file-validation.pipe';
-import { diskStorage } from 'multer';
-import { extname } from 'path';
 import { PostSwaggerDecorator } from './decorators/post-swagger.decorator';
 import { multerDiskStorage } from 'src/common/multer.config';
  
